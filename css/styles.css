@@ -24,6 +24,9 @@ body {
   padding: 0;
   width: 1600px;
 }
+* {
+  margin: 0px;
+}
 
 /* poczatek header */
 
@@ -42,7 +45,7 @@ body {
   font-weight: 700;
   line-height: 1.193;
   text-decoration: none;
-  padding: 25px 0px 24px 215px
+  padding: 25px 0px 24px 215px;
 }
 
 .blue-text {
@@ -74,14 +77,13 @@ body {
   gap: 50px;
   padding: 32px 0px 32px 371px;
   margin: 0;
-  ;
 }
 .contact-link-style {
   color: var(--grey);
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.2;
-  text-decoration: none
+  text-decoration: none;
 }
 /* koniec header */
 /* zamow usluge box */
@@ -293,8 +295,8 @@ body {
 }
 .portfolio-item {
   border: var(--productborder) solid 1px;
-  width: 368px;
-  height: 402px;
+  width: 370px;
+  height: 404px;
 }
 .portfolio-item-heading {
   letter-spacing: 0.06em;
